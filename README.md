@@ -1,7 +1,7 @@
 # Deploy a High-Availability Web Application Using AWS CloudFormation - IaaS 
 
 
-Infrastructure-as-code (IAC) that automates the process of creating a secured and high-availability environment and deploying an application (packaged and staged in AWS S3 Storage)Apache Web Server. The script contains all the configurations needed for a repeatable process so that the infrastructure can be discarded and recreated at will multiple times.
+Infrastructure-as-code (IAC) that automates the process of creating a secured and high-availability environment and deploying an application (packaged and staged in AWS S3 Storage) Apache Web Server. The script contains all the configurations needed for a repeatable process so that the infrastructure can be discarded and recreated at will multiple times.
 
 **Features**
 
@@ -21,7 +21,7 @@ Infrastructure-as-code (IAC) that automates the process of creating a secured an
 
 8. Application servers are configured with IAM instance profile to be able to access and download application code from AWS S3 bucket.
 
-9. Application code is deployed in a dockerized apache web server for added security and isolation.
+9. Application code is deployed in a apache web server for added security and isolation.
 
 10. Health checks and thresholds are defined to aid in system availability detection. Metrics are collected, aggregated, and monitored via AWS CloudWatch.
 
